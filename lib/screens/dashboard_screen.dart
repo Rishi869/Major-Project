@@ -12,7 +12,7 @@ class DashboardScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Dashboard"),
-        backgroundColor: const Color(0xFF4A3636), // dark brown bar
+        backgroundColor: const Color.fromARGB(255, 100, 21, 21), // dark brown bar
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
